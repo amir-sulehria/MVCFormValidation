@@ -146,6 +146,7 @@
     <Compile Include="tbl_Category.cs">
       <DependentUpon>WebAppModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="tbl_CategoryValidation.cs" />
     <Compile Include="WebAppModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

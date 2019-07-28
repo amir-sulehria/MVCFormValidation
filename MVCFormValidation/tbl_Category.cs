@@ -19,6 +19,8 @@ namespace MVCFormValidation
         [Required(ErrorMessage = "Name is required")]
         public string Name { get; set; }
         [Required]
+        [Display(Description = "Description: ")]
         public string Description { get; set; }
+        
     }
 }
